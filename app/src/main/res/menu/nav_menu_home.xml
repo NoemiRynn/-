@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mine_home"
+            android:icon="@drawable/ic_black_user"
+            android:title="Mine"/>
+        <item
+            android:id="@+id/nav_settings_home"
+            android:icon="@drawable/ic_black_setting"
+            android:title="Setting"/>
+        <item
+            android:id="@+id/nav_mode_home"
+            android:icon="@drawable/ic_black_forbid"
+            android:title="Mode"/>
+        <item
+            android:id="@+id/nav_qrcode_home"
+            android:icon="@drawable/ic_black_viewfinder"
+            android:title="QR Share"/>
+    </group>
+</menu>
