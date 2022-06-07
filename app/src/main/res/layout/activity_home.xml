@@ -27,9 +27,9 @@
                 app:popupTheme="@style/Theme.MaterialComponents.Light">
 
                 <RelativeLayout
-                    android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_gravity="center"
                     android:layout_marginEnd="14dp"
                     android:orientation="horizontal">
 
@@ -42,19 +42,19 @@
 
                     <EditText
                         android:id="@+id/toolbar_search"
-                        android:background="@drawable/toolbar_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="36dp"
                         android:layout_centerInParent="true"
-                        android:inputType="text"
+                        android:background="@drawable/toolbar_edit_text"
                         android:gravity="start|center_vertical"
-                        android:visibility="gone"
                         android:hint="Search Chat"
-                        android:textColorHint="@color/dark_gray"
-                        android:textCursorDrawable="@drawable/color_cursor"
+                        android:inputType="text"
                         android:singleLine="true"
                         android:textColor="@color/dark_gray"
-                        android:textSize="16sp" />
+                        android:textColorHint="@color/dark_gray"
+                        android:textCursorDrawable="@drawable/color_cursor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
 
                     <TextView
                         android:id="@+id/toolbar_notation"
@@ -63,9 +63,9 @@
                         android:layout_alignParentLeft="true"
                         android:layout_centerVertical="true"
                         android:text="@string/notation"
-                        android:visibility="gone"
                         android:textColor="@color/black"
-                        android:textSize="22sp" />
+                        android:textSize="22sp"
+                        android:visibility="gone" />
 
                     <TextView
                         android:id="@+id/toolbar_message"
@@ -74,9 +74,9 @@
                         android:layout_alignParentLeft="true"
                         android:layout_centerVertical="true"
                         android:text="@string/message"
-                        android:visibility="gone"
                         android:textColor="@color/black"
-                        android:textSize="22sp" />
+                        android:textSize="22sp"
+                        android:visibility="gone" />
                 </RelativeLayout>
             </androidx.appcompat.widget.Toolbar>
         </com.google.android.material.appbar.AppBarLayout>

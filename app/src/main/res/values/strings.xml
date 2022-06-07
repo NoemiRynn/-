@@ -6,4 +6,6 @@
     <string name="search">Search</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat">Chat</string>
+    <string name="twitter_example_content">高考的小可爱们加油！记得吃勇者肉块 用拉塔恩的大论 带狮子火打处决流通关</string>
 </resources>
